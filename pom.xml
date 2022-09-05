@@ -11,6 +11,7 @@
     <modules>
         <module>mybatis-step00</module>
         <module>mybatis-step01</module>
+        <module>mybatis-step02</module>
     </modules>
 
     <dependencies>
@@ -51,6 +52,11 @@
             <artifactId>lombok</artifactId>
             <version>1.18.24</version>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.5</version>
         </dependency>
     </dependencies>
 
